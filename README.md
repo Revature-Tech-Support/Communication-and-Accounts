@@ -1,4 +1,4 @@
-# Communication-and-Accounts-Microservice-
+# Communication-and-Accounts-Microservice
 
 # Application users are: 
 •	IT Support Professional

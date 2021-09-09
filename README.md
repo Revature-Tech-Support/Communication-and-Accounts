@@ -32,13 +32,7 @@ mvn spring-boot:run
 ```
 
 # Team Members
-* Jonathan Gomez
-* Tam Jang
-* Olenka Quispe
-* Jesus Esquer
-
-
-
-
-
-
+* [Jonathan Gomez](https://github.com/JonathanAGomez)
+* [Tam Jang](https://github.com/tamhpn)
+* [Olenka Quispe](https://github.com/Olenkaqh)
+* [Jesus Esquer](https://github.com/jm27)

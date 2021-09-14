@@ -12,6 +12,7 @@ import org.springframework.web.reactive.socket.WebSocketHandler;
 
 @Configuration
 public class WSConfig {
+    
     @Autowired
     private WebSocketHandler webSocketHandler;
 

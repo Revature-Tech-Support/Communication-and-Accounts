@@ -11,13 +11,12 @@ import reactor.core.publisher.Sinks;
 
 @Component
 public class WSHandler implements WebSocketHandler {
-
+    
     Sinks.Many<String> sink = Sinks.many().replay().all();
     Flux<String> messages = sink.asFlux();
 
     @Override
     public Mono<Void> handle(WebSocketSession webSocketSession) {
-
         webSocketSession.receive()
             .map(WebSocketMessage::getPayloadAsText)
             .log()

@@ -1,5 +1,5 @@
 var ws = null;
-var url = "ws://localhost:8080/test";
+var url = "ws://localhost:8080/ws";
  
 function setConnected(connected) 
 {

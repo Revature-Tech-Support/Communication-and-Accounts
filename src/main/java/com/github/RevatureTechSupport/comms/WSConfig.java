@@ -18,8 +18,7 @@ public class WSConfig {
     @Bean
     public HandlerMapping handlerMapping() {
         Map<String, WebSocketHandler> map = new HashMap<>();
-        map.put("/test", webSocketHandler);
-        //ws://localhost:8080/test
+        map.put("/ws", webSocketHandler);
 
         SimpleUrlHandlerMapping handlerMapping = new SimpleUrlHandlerMapping();
         handlerMapping.setOrder(1);

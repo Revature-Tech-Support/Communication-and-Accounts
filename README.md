@@ -1,20 +1,26 @@
-# Communication and Accounts Microservice
+# TechSupport_Communication-and-Accounts
 
-# Application users are: 
-*	IT Support Professional
-*	User/Client
+## Client Specifications:
+- Test Driven Development (TDD)
 
-# IT Support can:
-* Start a chat with the next available User
-* Send and receive messages
-* Close the chat with the issue resolved
 
-# User can:
-* Enter a queue
-* Enter a chat with the next IT professional
-* Send and receive messages, and leave chat
+## Goal:
+This team will handle the user accounts and messaging between user and tech support.
 
-# Technology Stack
+
+## User Stories:
+### IT Support Professional
+- As a IT Support Professional
+- I want a chat with the next available User in the queue
+- So that send and receive messages then close the chat with the issue resolved
+
+### User
+- As a User
+- I want a queue to chat with the next IT professional
+- So that send and receive messages, and leave chat
+
+
+## Technology Stack
 * GitHub Monorepo
 * Agile SDLC:
   * Scrumboard (GitHub Projects)
@@ -25,13 +31,14 @@
 * Reactive Microservices
   *	Spring WebFlux
   *	Spring Data Reactive Cassandra
+  *	Soring Websocket
 
 * How to run
 ```
 mvn spring-boot:run
 ```
 
-# Team Members
+## Team Members
 * [Jonathan Gomez](https://github.com/JonathanAGomez)
 * [Tam Jang](https://github.com/tamhpn)
 * [Olenka Quispe](https://github.com/Olenkaqh)

@@ -23,7 +23,8 @@ public class WSHandler implements WebSocketHandler {
             .log()
             .subscribe(message -> sink.tryEmitNext(message),
                 error -> error.printStackTrace(),
-                () -> {if (sink.currentSubscriberCount() == 1) {
+                () -> {
+                    if (sink.currentSubscriberCount() == 1) {
                     sink = Sinks.many().replay().all();
                     messages = sink.asFlux();
                 }});

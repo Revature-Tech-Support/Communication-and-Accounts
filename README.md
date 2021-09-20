@@ -1,3 +1,4 @@
+
 # TechSupport_Communication-and-Accounts
 
 ## Client Specifications:
@@ -27,19 +28,23 @@ This team will handle the user accounts and messaging between user and tech supp
   *	User stories (GitHub Issues/Readme)
 * Karate tests
 * Spring Boot
-* AWS
 * Reactive Microservices
-  *	Spring WebFlux
+
+  *	Spring WebFlux (Reactive WebSockets)
   *	Spring Data Reactive Cassandra
   *	Soring Websocket
 
-* How to run
+
+## How to run
 ```
 mvn spring-boot:run
 ```
 
+## Endpoints
+Users can connect to the WebSocket at `ws://localhost:8080/ws`
+
 ## Team Members
 * [Jonathan Gomez](https://github.com/JonathanAGomez)
-* [Tam Jang](https://github.com/tamhpn)
+* [Tam Nguyen](https://github.com/tamhpn)
 * [Olenka Quispe](https://github.com/Olenkaqh)
 * [Jesus Esquer](https://github.com/jm27)

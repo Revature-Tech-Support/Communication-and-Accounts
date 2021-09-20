@@ -22,11 +22,13 @@ This team will handle the user accounts and messaging between user and tech supp
 
 
 
-* GitHub Monorepo
-* Agile SDLC:
+
+## GitHub Monorepo
+## Agile SDLC:
   * Scrumboard (GitHub Projects)
   *	User stories (GitHub Issues/Readme)
-  *	
+
+
 ## Technology Stack
 * Karate Tests
 * Spring Boot

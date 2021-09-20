@@ -21,18 +21,19 @@ This team will handle the user accounts and messaging between user and tech supp
 - So that send and receive messages, and leave chat
 
 
-## Technology Stack
+
 * GitHub Monorepo
 * Agile SDLC:
   * Scrumboard (GitHub Projects)
   *	User stories (GitHub Issues/Readme)
-* Karate tests
+  *	
+## Technology Stack
+* Karate Tests
 * Spring Boot
 * Reactive Microservices
 
-  *	Spring WebFlux (Reactive WebSockets)
-  *	Spring Data Reactive Cassandra
-  *	Soring Websocket
+  *	Spring WebFlux
+  *	Spring Websocket
 
 
 ## How to run

@@ -11,19 +11,18 @@ This team will handle the user accounts and messaging between user and tech supp
 ## User Stories:
 ### IT Support Professional
 - As a IT Support Professional
-- I want a chat with the next available User in the queue
-- So that send and receive messages then close the chat with the issue resolved
+- I want a chat with the next available user in the queue
+- So that I can send and receive messages, then close the chat with the issue resolved
 
 ### User
 - As a User
 - I want a queue to chat with the next IT professional
-- So that send and receive messages, and leave chat
+- So that I can send and receive messages, and leave the chat
 
 
 ## Technology Stack
-* GitHub Monorepo
 * Agile SDLC:
-  * Scrumboard (GitHub Projects)
+  * Scrumboard (Trello)
   *	User stories (GitHub Issues/Readme)
 * Karate tests
 * Spring Boot
@@ -31,7 +30,7 @@ This team will handle the user accounts and messaging between user and tech supp
 * Reactive Microservices
   *	Spring WebFlux
   *	Spring Data Reactive Cassandra
-  *	Soring Websocket
+  *	WebSocket
 
 * How to run
 ```
@@ -40,6 +39,6 @@ mvn spring-boot:run
 
 ## Team Members
 * [Jonathan Gomez](https://github.com/JonathanAGomez)
-* [Tam Jang](https://github.com/tamhpn)
-* [Olenka Quispe](https://github.com/Olenkaqh)
+* [Tam Nguyen](https://github.com/tamhpn)
+* [Olenka Quispe Huanca](https://github.com/Olenkaqh)
 * [Jesus Esquer](https://github.com/jm27)

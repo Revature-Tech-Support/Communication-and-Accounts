@@ -1,42 +1,34 @@
-
 # TechSupport_Communication-and-Accounts
 
 ## Client Specifications:
 - Test Driven Development (TDD)
 
-
 ## Goal:
-This team will handle the user accounts and messaging between user and tech support.
-
+This team will handle messaging between the user and tech support.
 
 ## User Stories:
 ### IT Support Professional
-- As a IT Support Professional
+- As an IT Support Professional
 - I want a chat with the next available User in the queue
-- So that send and receive messages then close the chat with the issue resolved
+- So that I can send and receive messages, and close the chat with the issue resolved
 
 ### User
 - As a User
 - I want a queue to chat with the next IT professional
-- So that send and receive messages, and leave chat
-
-
-
+- So that I can send and receive messages, and leave the chat
 
 ### GitHub Monorepo
 ### Agile SDLC:
   * Scrumboard (GitHub Projects)
   *	User stories (GitHub Issues/Readme)
 
-
 ## Technology Stack
-* Karate Tests
+* Java 8+
+* Karate Testing Framework
 * Spring Boot
 * Reactive Microservices
-
   *	Spring WebFlux
-  *	Spring Websocket
-
+  *	Spring WebSocket
 
 ## How to run
 ```

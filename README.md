@@ -19,7 +19,7 @@ This team will handle messaging between the user and tech support.
 
 ### GitHub Monorepo
 ### Agile SDLC:
-  * Scrumboard (GitHub Projects)
+  * Scrumboard (GitHub Trello)
   *	User stories (GitHub Issues/Readme)
 
 ## Technology Stack
@@ -28,7 +28,7 @@ This team will handle messaging between the user and tech support.
 * Spring Boot
 * Reactive Microservices
   *	Spring WebFlux
-  *	Spring WebSocket
+  *	Spring Reactive WebSocket
 
 ## How to run
 ```
